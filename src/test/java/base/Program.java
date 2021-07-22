@@ -3,7 +3,12 @@ package base;
 
 
 public class Program extends BaseClassCreation {
+	public static void method2() {
+		// TODO Auto-generated method stub
+		System.out.println("method2");
+	}
 	public static void main(String[] args) {
+		method2();
 		BaseClassCreation base=new BaseClassCreation();
 		base.getdriver("chrome");
 		base.getUrl("https://adactinhotelapp.com/");

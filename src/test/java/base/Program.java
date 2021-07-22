@@ -7,7 +7,13 @@ public class Program extends BaseClassCreation {
 		// TODO Auto-generated method stub
 		System.out.println("method2");
 	}
+	public static void method3() {
+		// TODO Auto-generated method stub
+System.out.println("aadsd");
+	}
 	public static void main(String[] args) {
+		method3();
+		
 		method2();
 		BaseClassCreation base=new BaseClassCreation();
 		base.getdriver("chrome");

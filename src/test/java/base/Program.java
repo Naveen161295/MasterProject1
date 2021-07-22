@@ -4,7 +4,7 @@ package base;
 
 public class Program extends BaseClassCreation {
 	public static void master1() {
-		System.out.println("method1");
+		System.out.println("method11");
 	}
 	public static void main(String[] args) {
 		master1();
